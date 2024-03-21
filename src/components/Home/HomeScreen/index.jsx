@@ -3,6 +3,7 @@ import HamburgerNav from "../HamburgerNav";
 import HeroSection from "../Profile";
 import About from "../About";
 import Experience from "../Experience";
+import Project from "../Project";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection></HeroSection>
       <About></About>
       <Experience></Experience>
+      <Project></Project>
     </>
   );
 }
