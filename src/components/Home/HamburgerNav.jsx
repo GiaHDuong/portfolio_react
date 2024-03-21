@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
 export default function HamburgerNav() {
+  // Define state to keep track of Mobile Navigation
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Function
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
