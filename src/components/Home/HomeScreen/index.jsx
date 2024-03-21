@@ -5,6 +5,8 @@ import About from "../About";
 import Experience from "../Experience";
 import Project from "../Project";
 import Funfact from "../Funfact";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Experience></Experience>
       <Project></Project>
       <Funfact></Funfact>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }
