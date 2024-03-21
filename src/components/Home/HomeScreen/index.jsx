@@ -1,4 +1,4 @@
-import HeroSection from "../HeroSection";
+import HeroSection from "../Profile";
 import DesktopNav from "../DesktopNav";
 import HamburgerNav from "../HamburgerNav";
 
