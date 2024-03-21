@@ -11,7 +11,9 @@ export default function Contact() {
             class="icon contact-icon email-icon"
           />
           <p>
-            <a href="mailto:giaduong5906@gmail.com">giaduong5906@gmail.com</a>
+            <a href="mailto:giaduong5906@gmail.com" class="email-link">
+              giaduong5906@gmail.com
+            </a>
           </p>
         </div>
         <div class="contact-info-container">
@@ -21,7 +23,10 @@ export default function Contact() {
             class="icon contact-icon"
           />
           <p>
-            <a href="https://www.linkedin.com/in/gia-duong-70804824b/">
+            <a
+              href="https://www.linkedin.com/in/gia-duong-70804824b/"
+              class="linkedIn-link"
+            >
               LinkedIn
             </a>
           </p>

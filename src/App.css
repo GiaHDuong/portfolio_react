@@ -488,8 +488,10 @@ article .icon {
   margin: 1rem;
 }
 
-.contact-info-container p {
-  font-size: larger;
+.email-link,
+.linkedIn-link {
+  color: black;
+  background-color: #fcdc2a;
 }
 
 .contact-icon {
