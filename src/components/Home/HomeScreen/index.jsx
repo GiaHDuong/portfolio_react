@@ -1,6 +1,7 @@
-import HeroSection from "../Profile";
 import DesktopNav from "../DesktopNav";
 import HamburgerNav from "../HamburgerNav";
+import HeroSection from "../Profile";
+import About from "../About";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <DesktopNav></DesktopNav>
       <HamburgerNav></HamburgerNav>
       <HeroSection></HeroSection>
+      <About></About>
     </>
   );
 }
