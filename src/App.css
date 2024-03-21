@@ -336,3 +336,88 @@ section {
   margin: auto 0;
   padding-bottom: 2rem;
 }
+
+/* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+  height: 80vh;
+}
+
+/* HERE */
+.experience-sub-title,
+.article-container p {
+  background-color: white;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  margin-top: 10px;
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: space-around;
+  /* HERE */
+  background: white;
+}
+
+article {
+  /* display: flex; */
+  width: 15rem;
+  justify-content: space-around;
+  /* HERE */
+  background: white;
+}
+
+.article-container .h3 {
+  background-color: black;
+  margin-left: 20rem;
+}
+
+article .icon {
+  /* HERE */
+  background: white;
+  cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+  height: 85vh;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
