@@ -1,34 +1,47 @@
+import React, { useState } from "react";
+
 export default function HamburgerNav() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav id="hamburger-nav">
-      <div class="logo">Gia Duong</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+      <div className="logo">Gia Duong</div>
+      <div className="hamburger-menu">
+        <div
+          className={`hamburger-icon ${menuOpen ? "open" : ""}`}
+          onClick={toggleMenu}
+        >
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
-          <li>
-            <a href="#about" onclick="toggleMenu()">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#experience" onclick="toggleMenu()">
-              Experience
-            </a>
-          </li>
-          <li>
-            <a href="#projects" onclick="toggleMenu()">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#contact" onclick="toggleMenu()">
-              Contact
-            </a>
-          </li>
+        <div className={`menu-links ${menuOpen ? "open" : ""}`}>
+          <ul>
+            <li>
+              <a href="#about" onClick={toggleMenu}>
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#experience" onClick={toggleMenu}>
+                Experience
+              </a>
+            </li>
+            <li>
+              <a href="#projects" onClick={toggleMenu}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#contact" onClick={toggleMenu}>
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

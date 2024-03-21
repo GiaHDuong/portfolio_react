@@ -1,4 +1,5 @@
 import "./App.css";
+import "./AppMediaQueries.css";
 import React from "react";
 import Home from "./components/Home/HomeScreen";
 

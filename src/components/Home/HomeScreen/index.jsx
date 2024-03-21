@@ -4,6 +4,7 @@ import HeroSection from "../Profile";
 import About from "../About";
 import Experience from "../Experience";
 import Project from "../Project";
+import Funfact from "../Funfact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About></About>
       <Experience></Experience>
       <Project></Project>
+      <Funfact></Funfact>
     </>
   );
 }
